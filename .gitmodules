@@ -1,3 +1,9 @@
 [submodule "WNKmaster_CAD"]
 	path = WNKmaster_CAD
 	url = https://github.com/alibenpeng/WNKmaster_CAD.git
+[submodule "WNKmaster_firmware"]
+	path = WNKmaster_firmware
+	url = https://github.com/alibenpeng/WNKmaster_firmware.git
+[submodule "WNKmaster_hardware"]
+	path = WNKmaster_hardware
+	url = https://github.com/alibenpeng/WNKmaster_hardware.git
