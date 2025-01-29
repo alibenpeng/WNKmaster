@@ -1,6 +1,6 @@
 # WNKmaster 2000
 
-This is the WNKmaster soldering station project.
+**This is the WNKmaster soldering station project.**
 
 ## Purpose
 Weller has some very nice micro soldering tools in the WX, and older WM series.
@@ -41,14 +41,14 @@ Expect lots of gratuitously complicated code, memory leaks and access violations
 
 This being said, it mostly works and can do all the things listed in the features section. The only thing not implemented yet is the "performance" feature. I imagine this to be some kind of "soft start" for the heaters, that will reduce the maximum PWM value when they're cold.
 
-To build it, you need a reasonably recent (tested with 2.3.2) Arduino-IDE, with a Raspberry Pi Pico board package and all the necessary libraries installed, and in "Tools->Flash Size" you need to choose a setting that includes some space for a file system. Doesn't really matter, which.
-If you want to use this with anything other than a center tapped AC mains transformer, you also need to set HEATER_METHOD_PWM to 1 in wnk_master.h.
+To build it, you need a reasonably recent (tested with 2.3.2) Arduino-IDE, with a Raspberry Pi Pico board package and all the necessary libraries installed, and in `Tools->Flash Size` you need to choose a setting that includes some space for a file system. Doesn't really matter, which.
+If you want to use this with anything other than a center tapped AC mains transformer, you also need to set `HEATER_METHOD_PWM` to 1 in `wnk_master.h`.
 
 ![signal-2025-01-03-214511_002](https://github.com/user-attachments/assets/d3d8abb5-2d03-4acf-984e-51cd7378ef8b)
 ![signal-2025-01-03-214511_003](https://github.com/user-attachments/assets/70a2f9d5-fd78-48dd-a848-14c834e9cd68)
 
 ## CAD files
-The only file that's really necessary to build a functional prototype is wx_socket-10pins_retention_features.step. I had mine resin printed at JLCPCB, and they came out perfectly, even though the integrity check complained about wall thicknes. That socket will work nicely with Amphenol PN: VN0201500521 contacts. It fits the plug like a glove and doesn't even require any glue to hold the contacts in place, like my earlier prototypes did. Yay!
+The only file that's really necessary to build a functional prototype is `wx_socket-10pins_retention_features.step`. I had mine resin printed at JLCPCB, and they came out perfectly, even though the integrity check complained about wall thicknes. That socket will work nicely with Amphenol PN: VN0201500521 contacts. It fits the plug like a glove and doesn't even require any glue to hold the contacts in place, like my earlier prototypes did. Yay!
 
 The rest of the CAD repo contains various development stages of that plug, and lots of other junk. Mainly front and back panel designs for a TEKO KL22.9 enclosure and G-Code that probably won't work with your CNC machine.
 
