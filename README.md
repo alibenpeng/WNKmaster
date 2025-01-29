@@ -5,10 +5,13 @@ This is the WNKmaster soldering station project.
 ## Purpose
 Weller has some very nice micro soldering tools in the WX, and older WM series.
 Sadly, these tools, and especially the soldering stations are hideously expensive.
+So, building a DIY soldering station could save quite a bit of money.
 
-There already exist a few projects that support the older, analog WM series, but
+There are a few projects that support the older, analog WM series tools, but
 availability for those tools is starting to decline. So, I set out to design and
 build a soldering station for the WX series tools, and this is the result.
+The total BoM cost should be well below $100, even if you order all the parts from Digikey or Mouser.
+This does not include the enclosure and mains transformer, as I had those lying around for some time and don't remember what I paid for them at the time.
 
 ![signal-2024-11-16-180053_002](https://github.com/user-attachments/assets/62338a2f-e7a4-4f7b-8abd-2d32937dafd1)
 
