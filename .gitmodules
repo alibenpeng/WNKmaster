@@ -1,0 +1,3 @@
+[submodule "WNKmaster_CAD"]
+	path = WNKmaster_CAD
+	url = https://github.com/alibenpeng/WNKmaster_CAD.git
