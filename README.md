@@ -50,6 +50,8 @@ If you want to use this with anything other than a center tapped AC mains transf
 ## CAD files
 The only file that's really necessary to build a functional prototype is `wx_socket-10pins_retention_features.step`. I had mine resin printed at JLCPCB, and they came out perfectly, even though the integrity check complained about wall thickness. That socket will work nicely with ***Amphenol PN: VN0201500521*** contacts. It fits the plug like a glove and doesn't even require any glue to hold the contacts in place, like my earlier prototypes did. Yay!
 
+![signal-2025-01-29-131216](https://github.com/user-attachments/assets/94b918a8-84a7-4eeb-bf27-985b8e167cdc)
+
 The rest of the CAD repo contains various development stages of that plug, and lots of other junk. Mainly front and back panel designs for a ***TEKO KL22.9*** enclosure and G-Code that probably won't work with your CNC machine.
 
 ![signal-2025-01-03-214511](https://github.com/user-attachments/assets/b06c70e6-ad0e-40c9-b3bf-ef9ca5f48cf8)
